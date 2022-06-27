@@ -41,7 +41,7 @@ export default function Routes(){
                     title: 'Meus links',
                     drawerIcon: ({focused, size, }) => (
                     <Ionicons
-                     name = {focused ? 'link' : 'link-outline'}
+                     name = {focused ? 'md-stats-chart-sharp' : 'md-stats-chart-outline'}
                      size={size} 
                      color="#0E6A81"/>
                 ),

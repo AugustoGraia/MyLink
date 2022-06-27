@@ -4,7 +4,7 @@ import { Platform } from 'react-native';
 export const ContainerLogo = styled.View`
 align-items: center;
 justify-content: center;
-margin-top: ${ Platform.OS === 'ios' ? 35+'px' : 15+'px'};
+margin-top: ${ Platform.OS === 'ios' ? 80+'px' : 15+'px'};
 `;
 
 export const Logo = styled.Image`
@@ -14,7 +14,7 @@ transform: rotate(350deg); // rotação
 `;
 
 export const ContainerContent = styled.View`
-margin-top: ${ Platform.OS === 'ios' ? 20+'%' : 15+'%'};
+margin-top: ${ Platform.OS === 'ios' ? 30+'%' : 15+'%'};
 `;
 
 export const Title = styled.Text`
@@ -50,7 +50,6 @@ height: 50px;
 background-color: rgba(255, 255, 255, 0.15);
 border-top-left-radius: 7px;
 border-bottom-left-radius: 7px;
-
 `;
 
 export const Input = styled.TextInput`
@@ -63,6 +62,7 @@ background-color: rgba(255, 255, 255, 0.15);
 border-top-right-radius: 7px;
 border-bottom-right-radius: 7px;
 font-size: 17px;
+color: #fff;
 `;
 
 export const ButtonLink = styled.TouchableOpacity`
@@ -72,7 +72,6 @@ height: 45px;
 background-color: #FFF;
 margin: 0 15px;
 border-radius: 7px;
-margin-bottom: 15px;
 `;
 
 export const ButtonLinkText = styled.Text`
