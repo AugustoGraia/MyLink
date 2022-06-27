@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { ModalContainer, Container, Header } from './style';
+import { ModalContainer, Container, Header, LinkArea, Title, 
+        LongUrl, ShortLinkArea, ShortLinkUrl } from './style';
 import { Text, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Title } from '../../../pages/Home/styles';
@@ -36,7 +37,7 @@ export default function ModalLink(){
                         </ShortLinkUrl>    
 
                     </ShortLinkArea>
-                               
+
                 </LinkArea>
             </Container>
         </ModalContainer>
